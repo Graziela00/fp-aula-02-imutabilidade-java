@@ -1,14 +1,21 @@
-package exercicios;
+// package exercicios;
 
-import io.github.manoelcampos.examcorrection.RecordTest;
+// import io.github.manoelcampos.examcorrection.RecordTest;
 
-import java.util.Map;
+// import java.util.Map;
 
-/**
- * @author Manoel Campos
- */
-class CidadeRecordTest extends RecordTest {
-    CidadeRecordTest() {
-        super(Map.of("nome", "String"));
-    }
-}
+// /**
+//  * @author Manoel Campos
+//  */
+// class CidadeRecordTest extends RecordTest {
+//     CidadeRecordTest() {
+//         super(Map.of("nome", "String"));
+//     }
+// }
+
+    public record CidadeRecord(String nome) {}
+
+
+
+
+
